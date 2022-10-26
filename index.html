@@ -19,34 +19,46 @@
         <nav id="character-nav">
             <ul class="characters">
                 <li>
-                    <div class="sprite" id="cap"></div>
-                    <div class="red-bumper"></div>
-                    <h5>Captain America</h5>
+                    <a href="#lightBox">
+                        <div class="sprite" id="cap"></div>
+                        <div class="red-bumper"></div>
+                        <h5>Captain America</h5>
+                    </a>
                 </li>
                 <li>
-                    <div class="sprite" id="carol"></div>
-                    <div class="red-bumper"></div>
-                    <h5>Captain Marvel</h5>
+                    <a href="#lightBox">
+                        <div class="sprite" id="carol"></div>
+                        <div class="red-bumper"></div>
+                        <h5>Captain Marvel</h5>
+                    </a>
                 </li>
                 <li>
-                    <div class="sprite" id="clint"></div>
-                    <div class="red-bumper"></div>
-                    <h5>Hawkeye</h5>
+                    <a href="#lightBox">
+                        <div class="sprite" id="clint"></div>
+                        <div class="red-bumper"></div>
+                        <h5>Hawkeye</h5>
+                    </a>
                 </li>
                 <li>
-                    <div class="sprite" id="hulk"></div>
-                    <div class="red-bumper"></div>
-                    <h5>Hulk</h5>
+                    <a href="#lightBox">
+                        <div class="sprite" id="hulk"></div>
+                        <div class="red-bumper"></div>
+                        <h5>Hulk</h5>
+                    </a>
                 </li>
                 <li>
-                    <div class="sprite" id="thor"></div>
-                    <div class="red-bumper"></div>
-                    <h5>Thor</h5>
+                    <a href="#lightBox2">
+                        <div class="sprite" id="thor"></div>
+                        <div class="red-bumper"></div>
+                        <h5>Thor</h5>
+                    </a>
                 </li>
                 <li>
-                    <div class="sprite" id="widow"></div>
-                    <div class="red-bumper"></div>
-                    <h5>Widow</h5>
+                    <a href="#lightBox">
+                        <div class="sprite" id="widow"></div>
+                        <div class="red-bumper"></div>
+                        <h5>Widow</h5>
+                    </a>
                 </li>
             </ul>
         </nav>
@@ -59,5 +71,37 @@
     <footer class="sticky_footer">
         <h3>All images &copy; Marvel</h3>
     </footer>
+
+    <!-- put the lightbox at the botton of the stack (which is the top when it gets rendered)-->
+
+    <section class="lightbox" id="lightBox">
+        <a href="" class="lb_close">X</a>
+
+        <article>
+            <h3 class="lb_heading">Captain America - The Frist Avenger</h3>
+            <p class="lb_text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt veniam asperiores molestias perferendis inventore. Provident tempore eius, optio cumque, ad, consequatur autem asperiores omnis iusto enim dicta doloremque minus laudantium?
+            </p>
+            <p class="lb_text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam facilis earum magni possimus soluta sit at eveniet, tempora rerum accusantium ducimus dolorum error officia omnis repellendus maxime labore a quae.
+            </p>
+        </article>
+    </section>
+
+    <!-- lightbox thor-->
+
+    <section class="lightbox" id="lightBox2">
+        <a href="" class="lb_close">X</a>
+
+        <article>
+            <h3 class="lb_heading">Thor Odinson - The Asgardian</h3>
+            <p class="lb_text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt veniam asperiores molestias perferendis inventore. Provident tempore eius, optio cumque, ad, consequatur autem asperiores omnis iusto enim dicta doloremque minus laudantium?
+            </p>
+            <p class="lb_text">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Magnam facilis earum magni possimus soluta sit at eveniet, tempora rerum accusantium ducimus dolorum error officia omnis repellendus maxime labore a quae.
+            </p>
+        </article>
+    </section>
 </body>
 </html>
